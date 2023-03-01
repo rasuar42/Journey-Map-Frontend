@@ -22,5 +22,4 @@ jobs:
       - uses: actions/checkout@v2
       - run: npm ci
       - run: npm run build
-      - run: ls 
-      - run: cat ".env"
+      - run: ls -a
